@@ -3,9 +3,8 @@
 <div align="center">
   <p>Inspired by https://github.com/monodyle/howmuch</p>
   <p>Crypto coin price tracking on terminal.</p>
+  <p>![Go How Much?](https://user-images.githubusercontent.com/1828895/119094120-e4744400-ba10-11eb-8093-d73c5ef9eaeb.gif)</p>
 </div>
-
-![Go How Much?](https://user-images.githubusercontent.com/1828895/119094120-e4744400-ba10-11eb-8093-d73c5ef9eaeb.gif)
 
 # Install
 

@@ -1,4 +1,4 @@
-<h1 align="center">Go How Much? 🪙</h1>
+<h1 align="center">Go How Much?</h1>
 
 <div align="center">
   <p>Inspired by https://github.com/monodyle/howmuch</p>

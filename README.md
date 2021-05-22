@@ -47,12 +47,26 @@ gohowmuch --symbol=shib
 
 # Open multiple views
 
-![Multi-views](https://user-images.githubusercontent.com/1828895/119092596-e806cb80-ba0e-11eb-9cc6-aa4b904358a2.gif)
+![Multi-views](https://user-images.githubusercontent.com/1828895/119222409-8f116300-baf4-11eb-908b-0170b3ab172d.gif)
 
-Suggest to use https://github.com/tmux/tmux with following command
+Suggest to use [tmux](https://github.com/tmux/tmux).
+Example config [tmux_traderview_config.sh](https://github.com/ledongthuc/gohowmuch/blob/main/scripts/traderview.sh).
+Or
 
 ```
-tmux select-layout even-vertical;
+#!/bin/bash
+
+symbols=("btc" "eth" "doge" "xrp")
+base="usdt"
+app_path="./gohowmuch"
+
+for symbol in "${symbols[@]:1}"; do
+	tmux split-window "$app_path --symbol=$symbol -symbolbase=$base";
+	tmux select-layout tile;
+done
+tmux select-pane -t 0;
+
+build/gohowmuch_darwin_amd64 --symbol=${symbols[0]} -symbolbase=$base
 ```
 
 # Build from source

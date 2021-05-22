@@ -5,4 +5,4 @@ clean:
 	rm build/*
 	echo "Clean"
 traderview:
-	tmux
+	./scripts/traderview.sh

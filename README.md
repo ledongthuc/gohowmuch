@@ -8,6 +8,27 @@
 
 # Install
 
+**Source**
+
+1. Requirement
+
+```
+Go 1.16
+```
+
+2. Build binary
+
+```
+go get;
+go build -o gohowmuch;
+```
+
+3. Run gohowmuch
+
+```
+./gohowmuch
+```
+
 **Linux**
 
  - 64bit: https://github.com/ledongthuc/gohowmuch/releases/download/1.0.0/gohowmuch_linux_amd64
@@ -67,25 +88,6 @@ done
 tmux select-pane -t 0;
 
 build/gohowmuch_darwin_amd64 --symbol=${symbols[0]} -symbolbase=$base
-```
-
-# Build from source
-
-1. Requirement
-
- - Go 1.16
-
-2. Build binary
-
-```
-go get;
-go build -o gohowmuch;
-```
-
-3. Run gohowmuch
-
-```
-./gohowmuch
 ```
 
 # License

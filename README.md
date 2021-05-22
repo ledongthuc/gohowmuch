@@ -56,15 +56,20 @@ Type from commandline
 gohowmuch --symbol=doge
 ```
 
-Change the symbol that avaiable on [https://www.binance.com/en/markets](binance)
+Support *--symbol* and *--symbolbase*. Change the symbol that avaiable on [https://www.binance.com/en/markets](binance)
+
+*--symbol* default value is "btc".
+
+*--symbolbase* default value is "usdt".
 
 Example:
 
 ```
-gohowmuch --symbol=btc
-gohowmuch --symbol=doge
-gohowmuch --symbol=shib
+gohowmuch --symbol=btc --symbolbase=usdt
+gohowmuch --symbol=doge --symbolbase=btc
+gohowmuch --symbol=shib --symbolbase=doge
 ```
+
 
 # Open multiple views
 

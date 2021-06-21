@@ -6,6 +6,8 @@
   <p><img src="https://user-images.githubusercontent.com/1828895/119094120-e4744400-ba10-11eb-8093-d73c5ef9eaeb.gif"></p>
 </div>
 
+[![Built with WeBuild](https://raw.githubusercontent.com/webuild-community/badge/master/svg/WeBuild.svg)](https://webuild.community)
+
 # Install
 
 **Source**
